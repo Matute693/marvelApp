@@ -28,6 +28,15 @@
 </div>
 
 <div *ngIf="selectedHero">
-    <app-heroe-card-component [heroe]="selectedHero"></app-heroe-card-component>
+    <div 
+    fxLayout="row wrap"
+    fxLayout.xs="column"
+    fxLayoutAlign="center">
+    <div 
+        fxFlex.lg="40"
+        fxFlez.sm="30">
+        <app-heroe-card-component [heroe]="selectedHero"></app-heroe-card-component>
+    </div>
+</div>
 </div>
 

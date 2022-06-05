@@ -14,6 +14,7 @@ import { AuthRoutingModule } from '../auth/auth-routing.module';
 import { HeroeCardComponent } from './components/heroe-card-component/heroe-card-component.component';
 import { ImagePipe } from './pipes/image.pipe';
 import { FormsModule } from '@angular/forms';
+import { ConfirmModalComponent } from './components/confirm-modal/confirm-modal.component';
 
 
 
@@ -25,7 +26,8 @@ import { FormsModule } from '@angular/forms';
     HomeComponent,
     ListComponent,
     HeroeCardComponent,
-    ImagePipe
+    ImagePipe,
+    ConfirmModalComponent
   ],
   imports: [
     CommonModule,

@@ -1,0 +1,9 @@
+<h3>Are you sure to delete it?</h3>
+<br>
+
+<p>You want to delete {{data.superhero}}</p>
+
+<div mat-dialog-actions fxLayout>
+    <button (click)="closeDialog()" mat-button color="primary">Close modal</button>
+    <button mat-button (click)="deleted()" color="warn">Delete</button>
+</div>
