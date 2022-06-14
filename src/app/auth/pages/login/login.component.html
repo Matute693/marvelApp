@@ -1,1 +1,14 @@
-<p>login works!</p>
+<div class="container-img">
+<mat-grid-list cols="1">
+     <button 
+        (click)="login()"
+        mat-raised-button 
+        color="primary"
+        class="margin-right-5">
+        Sign up
+    </button>
+    <button (click)="loginWithoutAuth()" mat-raised-button color="warn">
+        Sign up without login
+    </button> 
+    </mat-grid-list>
+</div>

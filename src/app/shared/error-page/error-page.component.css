@@ -1,0 +1,14 @@
+.container {
+    background: url(./../../../assets/error-404.jpeg);
+    background-position: center center;
+    background-size: cover;
+    min-height: 45rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-items {
+    display: flex;
+    justify-content: center;
+}

@@ -40,7 +40,8 @@
             <mat-icon>menu</mat-icon>
         </button>
         <span class="spacer"></span>
-        <button mat-button routerLink="/auth/login">
+        <span>{{ auth.usuario }}</span>
+        <button mat-button (click)="logOut()">
             <mat-icon>logout</mat-icon>
             <span>Log out</span>
         </button>
