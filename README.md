@@ -12,3 +12,5 @@ Run `npm run start:json` for a dev server. Navigate to `http://localhost:4200/`.
 
 The npm run `npm run start:json script` raises a local backend made with the json-server dependency of the npm package.
 
+``json-server --watch db.json``
+
