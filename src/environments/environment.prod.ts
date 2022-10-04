@@ -1,3 +1,4 @@
 export const environment = {
-  production: true
+  production: true,
+  apiEndPoint: 'https://my-json-server.typicode.com/Matute693/json-server/db'
 };

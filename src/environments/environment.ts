@@ -4,7 +4,7 @@
 
 export const environment = {
   production: false,
-  apiEndPoint: 'http://localhost:3000'
+  apiEndPoint: 'https://my-json-server.typicode.com/Matute693/json-server/db'
 };
 
 /*
