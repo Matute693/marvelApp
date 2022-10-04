@@ -8,7 +8,9 @@ Perform a CRUD to be able to insert, read, update and delete data from the datab
 
 ## Development server
 
-Run `start:json` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Run `npm run start` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
-The npm run `start:json script` raises a local backend made with the json-server dependency of the npm package.
+The npm run `npm run start` raises a local backend made with the json-server dependency of the npm package.
+
+``json-server --watch db.json``
 
