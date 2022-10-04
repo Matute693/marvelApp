@@ -14,3 +14,5 @@ The npm run `npm run start` raises a local backend made with the json-server dep
 
 ``json-server --watch db.json``
 
+URL DEPLOY: https://comics-dc-app.netlify.app/
+
